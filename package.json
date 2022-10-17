@@ -1,0 +1,23 @@
+{
+  "name": "linter",
+  "version": "1.0.0",
+  "maintainers": [
+    {
+      "name": "Denis Rudov"
+    }
+  ],
+  "description": "Eslint testing tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^8.25.0",
+    "jest": "^29.2.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.18.6"
+  }
+}
